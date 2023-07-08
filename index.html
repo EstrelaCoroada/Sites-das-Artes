@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modificando codigo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/index.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<header class="container-fluid p-4  text-white text-center">
+  <h1>ARTE E VIDA</h1>
+</header><br><br>
+  
+<h3 style="text-align: center;" > Verificador de idade</h3>
+
+<section class="card container mt-4" id="box">
+  <div class="card-boby">
+    <h5 class="card-title"> Escolhs o ano de nascimento para ver o resultado</h5>
+    <p class="card-subtitle mt-2 text-muted">Ano de nascimento: <input type="number" name="txtano" id="textano" min="1900"></p>
+    <p class="card-text"><b>sexo:</b>
+    <input type="radio" name="radsex" id="masc" class="form-check-input">
+    <label for="masc">Msculino</label>
+    <input type="radio" name="radsex" id="fem" class="form-check-input">
+    <label for="fem">Feminino</label>
+    </p>
+    <button type="button" class="btn btn-primary" onclick="verificar()">verificar</button>
+  </div>
+  <div class="card-body text-center">
+  <h6 id='res'>Preencha os dados para ver o resultado</h6>
+  <img src="./imagens/Petals Logo.jpg" alt="" id="foto">
+</div>
+</section>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;" id="bloco-1">
+            <img src="./imagens/download (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arte e literatura</h5>
+              <p class="card-text">Se queres sentir a felicidade de amar, esquece a tua alma.
+                A alma é que estraga o amor.
+                Só em Deus ela pode encontrar satisfação.
+                Não noutra alma.
+                Só em Deus - ou fora do mundo.
+                
+                As almas são incomunicáveis.
+                
+                Deixa o teu corpo entender-se com outro corpo.
+                
+                Porque os corpos se entendem, mas as almas não.</p>
+              <a href="#" class="btn btn-primary" id="bloco-2">Biblioteca
+              </a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;" id="bloco-1">
+            <img src="./imagens/download (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arte e Som</h5>
+              <p class="card-text">Se queres sentir a felicidade de amar, esquece a tua alma.
+                A alma é que estraga o amor.
+                Só em Deus ela pode encontrar satisfação.
+                Não noutra alma.
+                Só em Deus - ou fora do mundo.
+                
+                As almas são incomunicáveis.
+                
+                Deixa o teu corpo entender-se com outro corpo.
+                
+                Porque os corpos se entendem, mas as almas não.</p>
+              <a href="https://open.spotify.com/" class="btn btn-primary" id="bloco-2">Playlis de musica</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card" style="width: 18rem;" id="bloco-1">
+            <img src="./imagens/download (3).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Arte e cultura</h5>
+              <p class="card-text">Quem vive de passado é museu, quem vive de futuro é cartomante e quem vive de ilusões é mágico! Aquilo que mais tolices ouve neste mundo, talvez seja um quadro de museu.</p>
+              <a href="https://mas.ufba.br/" class="btn btn-primary" id="bloco-2">Museu das artes</a>
+            </div>
+          </div>
+    </div>
+  </div>
+</div><br><br>
+  <center><div class="card" id="bloco-1">
+  <div class="card-header">
+    Atividade
+  </div>
+  <div class="card-body">
+  <blockquote class="blockquote mb-0">
+      <p>feita no dia 06/09/22.</p>
+      <footer class="blockquote-footer">bom dia das artes <cite title="Source Title">i.d</cite></footer>
+    </blockquote></center>
+  </div>
+</div>
+
+<script src="./JS/index.js"></script>
+</body>
+</html>
